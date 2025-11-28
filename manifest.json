@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Saturn's Box",
+  "version": "1.0",
+  "description": "A simple timezone tracker and converter",
+  "permissions": ["scripting", "storage"],
+  "action": {
+    "default_icon": "src/assets/sesimi-calc.png",
+    "default_popup": "src/index.html"
+  }
+}
