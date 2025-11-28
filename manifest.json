@@ -5,7 +5,7 @@
   "description": "A simple timezone tracker and converter",
   "permissions": ["scripting", "storage"],
   "action": {
-    "default_icon": "src/assets/sesimi-calc.png",
+    "default_icon": "assets//sesimi-calc.png",
     "default_popup": "src/index.html"
   }
 }

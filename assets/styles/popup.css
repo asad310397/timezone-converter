@@ -1,0 +1,47 @@
+/*
+Card color: #4C4C4C
+Background color: #1e1e1e
+Search bar: #323232
+Dropdown: #383636
+*/
+body {
+  width: 300px;
+  height: 200px;
+  background-color: #1e1e1e;
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #323232;
+  color: #ffffff;
+}
+
+#timezone-list {
+  display: none;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute; /* or relative, depending on layout */
+  background-color: white;
+  width: calc(100% - 2px); /* Adjust width to match input */
+  z-index: 10;
+}
+input:focus + #timezone-list {
+  display: block;
+}
+
+.suggestion-item {
+  padding: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
