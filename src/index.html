@@ -1,29 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <title>Timezone Converter</title>
-    <script src="moment.min.js"></script>
-    <script src="moment-timezone-with-data.min.js"></script>
-    <script src="city-timezones.bundle.js"></script>
-    <script src="popup.js"></script>
-    <link rel="stylesheet" href="../assets/styles/popup.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <script defer="defer" src="index.js"></script>
   </head>
   <body>
-    <header>
-      <div class="app-header">
-        <input
-          type="text"
-          id="timezone-search"
-          name="timezone"
-          placeholder="Search city/timezones..."
-        />
-        <div id="timezones-list"></div>
-      </div>
-    </header>
-    <main>
-      <div id="app"></div>
-    </main>
+    <div id="root"></div>
   </body>
 </html>
